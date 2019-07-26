@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+
+
+    <title>Bootstrap</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <br><br><br><br>
+        <h1>Meu primeiro <small>sistema bootstrap</small></h1>
+        <p>Este é meu primeiro teste</p>
+
+
+
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown link
+                      </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <hr/>
+
+        <h2>Estilos <small>de texto</small></h2>
+        <p>Para fazer uma marcação, use <code>mark</code> e também <code>abbr</code></p>
+        <p>Essa é uma <mark>frase específica</mark> para o <abbr title="Um framework daora">Bootstrap</abbr></p>
+        <br>
+
+        <p>Para fazer uma citação, use a tag <code>blockquote</code> e também <code>footer</code></p>
+        <blockquote>
+            Essa é uma citação do krl
+            <footer>Autor Desconhecido</footer>
+        </blockquote><br>
+
+        <p>Para fazer uma lista com descrição, use as tags
+            <code>dl</code>
+            <code>dt</code>
+            <code>dd</code></p>
+        <dl>
+            <dt>Café</dt>
+            <dd>- Bebida quente gostosa</dd>
+
+            <dt>Leite</dt>
+            <dd>- Sai da teta da vaca</dd>
+        </dl><br>
+
+        <p>Para salvar o arquivo, pressione <kbd>ctrl + s</kbd></p><br>
+
+        <p class="text-danger">Esse texto representa algum tipo de perigo</p>
+        <p class="bg-success">Esse texto representa sucesso</p>
+        <button><a href="https://www.w3schools.com/bootstrap/bootstrap_typography.asp">Mais </a></button>
+
+        <hr/>
+
+        <h2>Tabelas</h2>
+        <table class="table table-striped table-hover table-bordered">
+            <thead>
+                <tr>
+                    <td>Nome</td>
+                    <td>Sobrenome</td>
+                    <td>Email</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Rapha</td>
+                    <td>Duarte</td>
+                    <td>raphaelduarte@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Rapha</td>
+                    <td>Duarte</td>
+                    <td>raphaelduarte@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Rapha</td>
+                    <td>Duarte</td>
+                    <td>raphaelduarte@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Rapha</td>
+                    <td>Duarte</td>
+                    <td>raphaelduarte@gmail.com</td>
+                </tr>
+            </tbody>
+        </table><br>
+
+        <hr/>
+
+        <h2>Imagens</h2>
+        <figure class="figure">
+            <img src="download.jpg" class=" figure-img  img-fluid img-thumbnail">
+            <figcaption class="figure-caption">Imagem responsiva</figcaption>
+        </figure>
+        <hr>
+
+        <h2>Botões</h2>
+        <div class="botao">
+
+            <button type="button" class="btn">Basic</button>
+            <button type="button" class="btn btn-default">Default</button>
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-success">Success</button>
+            <button type="button" class="btn btn-info">Info</button>
+            <button type="button" class="btn btn-warning">Warning</button>
+            <button type="button" class="btn btn-danger">Danger</button>
+            <button type="button" class="btn btn-link">Link</button><br><br>
+            <button type="button" class="btn btn-primary btn-lg">Large</button>
+            <button type="button" class="btn btn-primary btn-md">Medium</button>
+            <button type="button" class="btn btn-primary btn-sm">Small</button>
+            <button type="button" class="btn btn-primary btn-xs">XSmall</button>
+            <br><br>
+            <button type="button" class="btn btn-primary btn-block">Button 1</button>
+            <br><br>
+            <button type="button" class="btn btn-primary active">Active Primary</button>
+            <button type="button" class="btn btn-primary disabled">Disabled Primary</button>
+            <br><br>
+        </div>
+
+
+        <p>Qual empresa vc prefere?</p>
+        <div class="btn-group btn-group-justified">
+            <a class="btn btn-primary">A</a>
+            <a class="btn btn-primary">B</a>
+            <a class="btn btn-primary">C</a>
+        </div>
+        <br><br>
+
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                <button class="dropdown-item" type="button">Action</button>
+                <button class="dropdown-item" type="button">Another action</button>
+                <button class="dropdown-item" type="button">Something else here</button>
+            </div>
+        </div>
+
+        <hr>
+
+        <h2>Jumbotron</h2>
+        <div class="jumbotron">
+            <h1>Texto destaque</h1>
+            <p>Subtitulo</p>
+        </div><br><br>
+
+        <hr>
+
+        <h2>Alerts</h2>
+        <div class="alert alert-success" role="alert">
+            Usuario cadastrado com sucesso!
+            <button class="close" data-dismiss="alert" aria-label="Fechar">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div><br><br>
+
+        <hr>
+
+        <h2>Labels e Badges</h2>
+        <button class="btn btn-primary">Mensagens <span class="badge badge-light">7</span></button>
+        <br>
+        <h4>Novo produto <span class="badge badge-danger">Danger</span> </h4><br><br>
+
+        <hr>
+
+
+        <h2>Panels</h2>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="panel panel-success">
+                    <div class="panel-heading">Esportes</div>
+                    <div class="panel-body">Noticias e conteúdos sobre esportes</div>
+                    <img src="download.jpg" class="img-fluid img-rounded" alt="Cu pinto buceta">
+
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="panel panel-danger">
+                    <div class="panel-heading">Politica</div>
+                    <div class="panel-body">Noticias e conteúdos sobre politica</div>
+                    <img src="download.jpg" class="img-fluid img-rounded" alt="Cu pinto buceta">
+                </div>
+            </div>
+        </div><br><br>
+
+        <hr>
+
+        <h2>Collapse</h2>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-tittle">
+                    <a href="#teste" data-toggle="collapse">Granito</a>
+                </h4>
+            </div>
+            <div id="teste" class="collapse panel-collapse">
+                <div class="panel-body">
+                    O granito (do latim granum grão, em referência à textura da rocha) é um tipo comum de rocha ígnea ou rocha magmática, intrusiva ou plutónica de grão fino não metamórfico, médio ou grosseiro
+                </div>
+            </div>
+        </div><br><br>
+
+        <hr>
+
+        <h2>List-Group</h2>
+
+        <ul class="list-group">
+            <a class="list-group-item">Item 1</a>
+            <a class="list-group-item">Item 2</a>
+            <a class="list-group-item disabled">Item 3</a>
+            <a class="list-group-item">Item 4</a>
+            <a class="list-group-item">Item 5</a>
+        </ul><br><br>
+
+        <hr>
+
+
+
+        <h2>Pager e Paginação</h2>
+        <nav aria-label="Page navigation example">
+            <ul class="pagination">
+                <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+            </ul>
+        </nav>
+
+        <hr>
+
+        <h2>Formulario</h2>
+        <form action="" method="post">
+            Email:<input type="email" name="email" class="form-control" /> Senha:
+            <input type="password" name="senha" class="form-control">
+
+            <input type="submit" value="Entrar">
+
+        </form><br><br>
+
+        <hr>
+
+        <h2>Modal</h2>
+        <button class="btn btn-info" data-toggle="modal" data-target="#janela">Abrir Modal</button>
+        <div class="modal" role="dialog" id="janela">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button class="close" data-dismiss="modal">&times;</button>
+                        <h1 class="modal-tittle">CARALHO MANO VC EH FODA</h1>
+                    </div>
+                    <div class="modal-body">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore dolorum rerum illum. Commodi expedita recusandae iusto ipsum animi repellendus quae possimus eveniet ad? Eaque maiores hic perspiciatis delectus dicta ab.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button class=" btmn btn-default close" data-dismiss="modal">FECHAR</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
